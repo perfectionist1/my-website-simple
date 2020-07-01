@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;
+}
+h1{
+    font-size: 40px;   
+    
+}
+p{
+    color: dimgray;
+    padding-bottom: 10px;
+
+}
+.font-arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-banner-bg{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    
+    
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 2% 0 0 5%;
+    padding-left: 2%;
+}
+.left-sec {
+	padding-top: 24%;
+	padding-left: 30%;
+}
+.right-sec{
+    margin-left: 5%;
+}
+.anchor-style{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    color: white;
+}
+.half-width img{
+    width: 100%;
+}
+
+.styled-heading{
+    color: tomato;
+    font-weight: 900;
+}
+/*
+////////////////////////////////////////////////////
+////// Biography Section Style starts /////////////
+////////////////////////////////////////////////////
+*/
+.biography-sec{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.biography-right-sec {
+	margin-left: -81px;
+	padding-top: 135px;
+}
+
+/*
+///////////////////////////////////////////////////////
+//////// Latest Working Section Style Starts /////////
+///////////////////////////////////////////////////////
+*/
+.latest-works-bg {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-position: right; */
+	background-attachment: scroll;
+	padding: 82px 0 0 0;
+}
+.latest-work-sec{
+    width: 90%;
+    margin: 0 6%;
+}
+.latest-work-sec > h1{
+    /* color: rgb(19, 156, 65); */
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 4%;
+    
+}
+.latest-work-sec img{
+    width: 30%;   
+    float: left;
+}
+.latest-works-pic {
+    padding: 0 10px 0 10px; 
+}
+.latest-work-sec img:last-child{
+    padding-right: 0px;
+}
+.latest-work-sec img:first-child{
+    padding-left: 0px;
+}
+
+/*
+/////////////////////////////////////////////////////
+////////// Clients' Section Style starts ///////////
+/////////////////////////////////////////////////////
+*/
+.client-section-bg{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+.client-section{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5%;
+}
+.client-section > h1{
+    padding-bottom: 10%;
+}
+
+.client-quote > p {
+    padding-bottom: 5%;
+}
+.quoted_area {
+	/* color: red; */
+	width: 320px;
+	margin: 0 auto;
+}
+
+.contact-section {
+	padding-top: 1%;
+	background-image: linear-gradient(45deg, #EC4F92, #ED4B73);
+	color: white;
+	padding-bottom: 1%;
+	margin-top: 10%;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+.contact-section p{
+    color: white;
+    padding-top: 3%;
+}
+.contact-section > h3{
+    padding-bottom: 4%;
+}
+.footer-section > p {
+	margin-top: 18%;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+/*
+///////////////////////////////////////////////////////////
+/////////////// Media Query /////////////////////////////
+//////////////////////////////////////////////////////////
+*/
+
+
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .left-sec h1 {
+      font-size: 25px;
+    }
+  }
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .left-sec h1 {
+      font-size: 30px;
+    }
+  }
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .left-sec h1 {
+      font-size: 35px;
+    }
+  }
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .left-sec h1 {
+      font-size: 40px;
+    }
+  }
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .left-sec h1 {
+      font-size: 40px;
+    }
+  }
